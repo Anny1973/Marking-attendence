@@ -1,0 +1,38 @@
+/* App.css */
+.App {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* StudentList.css */
+  .student-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  /* StudentItem.css */
+  .student-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .present {
+    background-color: green;
+    color: white;
+  }
+  
+  .absent {
+    background-color: red;
+    color: white;
+  }
+  
+  button {
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
